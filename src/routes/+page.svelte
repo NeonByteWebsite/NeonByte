@@ -538,10 +538,12 @@
             {:else}
               <!-- Other team member card -->
               <div class="h-80 relative bg-gray-800 flex items-center justify-center">
-                <div class="w-32 h-32 bg-yellow-400 rounded-full relative overflow-hidden">
-                  <div class="absolute inset-0 flex items-center justify-center">
-                    <div class="w-32 h-32 bg-yellow-400 rounded-full"></div>
-                  </div>
+                <div class="w-full h-full flex items-center justify-center overflow-hidden">
+                  <img 
+                    src={member.image} 
+                    alt={member.name} 
+                    class="h-full" 
+                  />
                 </div>
                 <!-- Yellow bar -->
                 <div class="absolute bottom-0 left-0 right-0 h-1 bg-yellow-400"></div>
