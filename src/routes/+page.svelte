@@ -208,7 +208,7 @@
 </script>
 
 <header class="fixed w-full z-50 transition-all duration-300" class:bg-black={scrollY > 50} class:bg-opacity-80={scrollY > 50}>
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+  <div class="max-w-full mx-auto px-4 sm:px-6 lg:px-8">
     <div class="flex items-center justify-between h-16">
       <div class="flex items-center">
         <div class="flex-shrink-0">
@@ -255,7 +255,7 @@
 
 <main>
   <!-- Hero Section -->
-  <section id="home" class="relative h-screen flex items-center justify-center bg-gradient-to-br from-gray-900 via-black to-gray-800 overflow-hidden">
+  <section id="home" class="relative h-screen w-screen flex items-center justify-center bg-gradient-to-br from-gray-900 via-black to-gray-800 overflow-hidden">
     <div class="particles-container absolute inset-0 overflow-hidden">
       <div class="particle yellow"></div>
       <div class="particle blue"></div>
@@ -285,7 +285,7 @@
         <div class="absolute w-1/2 h-1/2 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full border-[20px] border-yellow-400 animate-ping" style="animation-duration: 3s;"></div>
       </div>
     </div>
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
+    <div class="max-w-full w-full mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
       <div class="mb-8">
         <div class="inline-block w-32 h-32 mb-6 relative overflow-hidden">
           <img src="neonbyte.png" alt="NeonByte Logo" class="w-full h-full object-contain" />
@@ -315,8 +315,8 @@
   </section>
 
   <!-- About Section -->
-  <section id="about" class="py-20 bg-black">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+  <section id="about" class="py-20 bg-black w-full">
+    <div class="max-w-full mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-16">
         <h2 class="text-3xl sm:text-4xl font-bold text-white mb-4">About <span class="text-yellow-400">NeonByte</span></h2>
         <div class="w-20 h-1 bg-yellow-400 mx-auto"></div>
@@ -410,8 +410,8 @@
   </section>
 
   <!-- Services Section -->
-  <section id="services" class="py-20 bg-gray-900">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+  <section id="services" class="py-20 bg-gray-900 w-full">
+    <div class="max-w-full mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-16">
         <h2 class="text-3xl sm:text-4xl font-bold text-white mb-4">Our <span class="text-yellow-400">Services</span></h2>
         <div class="w-20 h-1 bg-yellow-400 mx-auto"></div>
@@ -444,7 +444,7 @@
   </section>
 
   <!-- Featured Projects Section -->
-  <section id="projects" class="py-20 bg-black relative overflow-hidden">
+  <section id="projects" class="py-20 bg-black relative overflow-hidden w-full">
     <div class="particles-container-alt absolute inset-0 overflow-hidden">
       <div class="particle-alt yellow"></div>
       <div class="particle-alt blue"></div>
@@ -455,7 +455,7 @@
       <div class="particle-alt yellow tiny"></div>
       <div class="particle-alt blue tiny"></div>
     </div>
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+    <div class="max-w-full mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
       <div class="text-center mb-16">
         <h2 class="text-3xl sm:text-4xl font-bold text-white mb-4">Featured <span class="text-yellow-400">Projects</span></h2>
         <div class="w-20 h-1 bg-yellow-400 mx-auto"></div>
@@ -498,8 +498,8 @@
   </section>
 
   <!-- Team Section -->
-  <section id="team" class="py-20 bg-gray-900">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+  <section id="team" class="py-20 bg-gray-900 w-full">
+    <div class="max-w-full mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-16">
         <h2 class="text-3xl sm:text-4xl font-bold text-white mb-4">Our <span class="text-yellow-400">Team</span></h2>
         <div class="w-20 h-1 bg-yellow-400 mx-auto"></div>
@@ -571,8 +571,8 @@
   </section>
 
   <!-- Contact Section -->
-  <section id="contact" class="py-20 bg-black">
-    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+  <section id="contact" class="py-20 bg-black w-full">
+    <div class="max-w-full mx-auto px-4 sm:px-6 lg:px-8">
       <div class="text-center mb-16">
         <h2 class="text-3xl sm:text-4xl font-bold text-white mb-4">Get In <span class="text-yellow-400">Touch</span></h2>
         <div class="w-20 h-1 bg-yellow-400 mx-auto"></div>
@@ -909,8 +909,8 @@
   </div>
 {/if}
 
-<footer class="bg-gray-900 border-t border-gray-800">
-  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+<footer class="bg-gray-900 border-t border-gray-800 w-full">
+  <div class="max-w-full mx-auto px-4 sm:px-6 lg:px-8 py-12">
     <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
       <div class="col-span-1 md:col-span-2">
         <div class="flex items-center mb-4">
@@ -953,11 +953,40 @@
 <style>
   :global(html) {
     scroll-behavior: smooth;
+    overflow-x: hidden;
+    max-width: 100vw;
   }
   
   :global(body) {
     background-color: black;
     color: white;
+    overflow-x: hidden;
+    width: 100%;
+    max-width: 100vw;
+  }
+  
+  :global(main), :global(header), :global(footer), :global(section) {
+    max-width: 100vw;
+    overflow-x: hidden;
+  }
+  
+  /* Mobile-specific adjustments */
+  @media (max-width: 640px) {
+    :global(body), :global(html) {
+      width: 100%;
+      overflow-x: hidden;
+    }
+    
+    :global(.max-w-full) {
+      width: 100%;
+      max-width: 100%;
+    }
+    
+    :global(section) {
+      width: 100%;
+      max-width: 100%;
+      box-sizing: border-box;
+    }
   }
   
   .tagline span {
