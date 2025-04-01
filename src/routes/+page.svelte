@@ -158,36 +158,36 @@
     {
       title: 'Advanced Calculator',
       category: 'Web Application',
-      image: '/calcu (1).png',
+      image: 'calcu (1).png',
       description: 'A comprehensive calculator application built with Java Netbeans, perfect for students and professionals alike.',
       type: 'image'
     },
     {
       title: 'Credify',
       category: 'Website/Mobile Application',
-      image: '/credify (1).mp4',
+      image: 'credify (1).mp4',
       description: 'A versatile platform for managing credentials and digital identity verification across multiple devices. Also includes a comprehensive system designed to track faculty activities, qualifications, and performance metrics for educational institutions.',
       type: 'video'
     },
     {
       title: 'Event Scheduling',
       category: 'Web/Mobile Application',
-      image: '/Event Schedule 1.png',
-      secondaryImage: '/Event schedule.png',
+      image: 'Event Schedule 1.png',
+      secondaryImage: 'Event schedule.png',
       description: 'An intuitive event management platform that simplifies scheduling, reminders, and participant coordination.',
       type: 'image'
     },
     {
       title: 'Weathering App',
       category: 'Web/Mobile Application',
-      image: '/weather (1).png',
+      image: 'weather (1).png',
       description: 'A real-time weather application providing accurate forecasts, alerts, and climate data visualization.',
       type: 'image'
     },
     {
       title: 'Quickrent Apartment Booking',
       category: 'Website/Mobile Application',
-      image: '/quickrent.mp4',
+      image: 'quickrent.mp4',
       description: 'A streamlined platform for browsing, comparing, and booking apartment rentals with a user-friendly interface.',
       type: 'video'
     }
@@ -197,12 +197,12 @@
     {
       name: 'Justine Marzan',
       role: 'FullStack Developer/Video Editor',
-      image: '/Justine.png'
+      image: 'Justine.png'
     },
     {
       name: 'Marron Jeremy Flores',
       role: 'Hardware Expert/UI/UX',
-      image: '/marron.jpg'
+      image: 'marron.jpg'
     }
   ];
 </script>
@@ -214,7 +214,7 @@
         <div class="flex-shrink-0">
           <div class="flex items-center">
             <div class="w-10 h-10 relative overflow-hidden">
-              <img src="/neonbyte.png" alt="NeonByte Logo" class="w-full h-full object-contain" />
+              <img src="neonbyte.png" alt="NeonByte Logo" class="w-full h-full object-contain" />
             </div>
             <span class="ml-3 text-xl font-bold text-white">NEONBYTE</span>
           </div>
@@ -288,7 +288,7 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
       <div class="mb-8">
         <div class="inline-block w-32 h-32 mb-6 relative overflow-hidden">
-          <img src="/neonbyte.png" alt="NeonByte Logo" class="w-full h-full object-contain" />
+          <img src="neonbyte.png" alt="NeonByte Logo" class="w-full h-full object-contain" />
         </div>
       </div>
       <h1 class="text-4xl sm:text-6xl font-bold text-white mb-4">
@@ -397,7 +397,7 @@
           <div class="w-full h-96 bg-gray-800 rounded-lg overflow-hidden relative">
             <div class="absolute inset-0 flex items-center justify-center">
               <div class="w-80 h-80 relative overflow-hidden">
-                <img src="/neonbyte.png" alt="NeonByte Logo" class="w-full h-full object-contain" />
+                <img src="neonbyte.png" alt="NeonByte Logo" class="w-full h-full object-contain" />
               </div>
             </div>
             <div class="absolute inset-0 bg-gradient-to-tr from-black via-transparent to-transparent"></div>
@@ -913,7 +913,7 @@
       <div class="col-span-1 md:col-span-2">
         <div class="flex items-center mb-4">
           <div class="w-10 h-10 relative overflow-hidden">
-            <img src="/neonbyte.png" alt="NeonByte Logo" class="w-full h-full object-contain" />
+            <img src="neonbyte.png" alt="NeonByte Logo" class="w-full h-full object-contain" />
           </div>
           <span class="ml-3 text-xl font-bold text-white">NEONBYTE</span>
         </div>
