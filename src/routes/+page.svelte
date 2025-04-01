@@ -202,7 +202,7 @@
     {
       name: 'Marron Jeremy Flores',
       role: 'Hardware Expert/UI/UX',
-      image: '/images/team2.jpg'
+      image: '/marron.jpg'
     }
   ];
 </script>
